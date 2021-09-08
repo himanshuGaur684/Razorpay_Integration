@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity(), PaymentResultListener {
 
     private fun startPayment(amount: Int) {
         val checkout = Checkout()
-        checkout.setKeyID("rzp_test_IDbE99OEUBbwsX")
+        checkout.setKeyID("your_key_here")
         try {
             val options = JSONObject()
             options.put("name", "Razorpay Integration")
