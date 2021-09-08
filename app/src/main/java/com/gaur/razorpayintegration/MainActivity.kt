@@ -57,8 +57,8 @@ class MainActivity : AppCompatActivity(), PaymentResultListener {
             options.put("amount", "${(amount.toInt() * 100)}")//pass amount in currency subunits
 
 
-            options.put("prefill.email", "himanshugaur684@gmail.com")
-            options.put("prefill.contact", "+919473613398")
+            options.put("prefill.email", "random@gmail.com")
+            options.put("prefill.contact", "+919442009211")
 
             checkout.open(this, options)
 
